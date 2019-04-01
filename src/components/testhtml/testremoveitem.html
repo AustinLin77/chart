@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*#box>span{*/
+        /*display: inline-block;*/
+        /*margin-top: 10px;*/
+        /*width: 200px;*/
+        /*height: 30px;*/
+        /*background-color: #aaa;*/
+    /*}*/
+    #childBox>span{
+        display: inline-block;
+        margin-top: 10px;
+        width: 200px;
+        height: 30px;
+        background-color: #48ace6;
+    }
+    #childBox span:first-child{
+        background-color: #aaa;
+    }
+</style>
+<body>
+<div id="box" class="boxclass">
+
+    <div id="childBox" class="childclass">
+        <span ></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div  class="childclass">
+
+    </div>
+    <div  class="childclass">
+
+    </div>
+</div>
+</body>
+<script>
+
+  function removeitem () {
+      var litt=[
+          {participantName:'wuy',empNo:17023423129},
+          {participantName:'挥洒',empNo:19034232129},
+          {participantName:'地方',empNo:13423429},
+      ]
+      litt =  litt.filter(function (item) {
+            if(item.empNo != 13423429){
+                return item
+            }
+      });
+      console.log(litt);
+
+
+
+  }
+  var arr = [5,8,4,6,5,1,3];
+  function getmax(arr) {
+      var max = arr[0];
+      for (var i=0;i<arr.length-1;i++ ){
+          if(arr[i+1]>max){
+              max = arr[i+1]
+          }
+      }
+      return max;
+  }
+console.log(getmax(arr))
+
+//  removeitem();
+</script>
+</html>

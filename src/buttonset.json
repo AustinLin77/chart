@@ -1,0 +1,88 @@
+/**
+ * Created by Administrator on 2018/10/26.
+ */
+{
+    用户权限:{
+            用户管理user_management:{
+                  创建用户:userManagement_ButcreatUser,
+                  批量删除:userManagement_ButdeleteAll,
+                  搜索:userManagement_Butsearch,
+                  设置角色:userManagement_ButsetRole,
+                  编辑:userManagement_Butedit,
+                  删除:userManagement_ButdeletItem
+                },
+            角色权限role_management:{
+                 新建角色:roleManagement_ButaddRole,
+                 搜索:roleManagement_Butsearch,
+                 设置权限:roleManagement_ButsetMenu,
+                 编辑角色:roleManagement_ButeditRole,
+                 删除角色:roleManagement_ButdeleteMenu,
+                 添加权限:roleManagement_ButaddMenu,
+                 修改权限:roleManagement_ButeditMenu,
+                 删除权限:roleManagement_ButdeleteRole
+                 }
+          },
+    系统管理:{
+            测试类别管理testCategoryManagement:{
+                搜索: testCategoryManagement_Butsearch,
+                删除测试类别:testCategoryManagement_Butdelete,
+                添加测试类别:testCategoryManagement_Butadd,
+                修改测试类别:testCategoryManagement_Butedit,
+                批量删除测试类别:testCategoryManagement_Butbatchdelete
+                },
+            测试项目管理testItemManagement:{
+                搜索:testItemManagement_Butsearch,
+                删除测试项目:testItemManagement_Butdelete,
+                添加测试项目:testItemManagement_Butadd,
+                修改测试项目:testItemManagement_Butedit,
+                批量删除测试项目: testItemManagement_Butbatchdelete
+                },
+            测试依据管理testStandardManagement:{
+                搜索:testStandardManagement_Butsearch,
+                删除测试依据:testStandardManagement_Butdelete,
+                添加测试依据:testStandardManagement_Butadd,
+                修改测试依据:testStandardManagement_Butedit,
+                批量删除测试依据:testStandardManagement_Butbatchdelete,
+                参考标准管理testStandardManage:{
+                    搜索:testStandardManage_Butsearch,
+                    删除参考标准:testStandardManage_Butdelete,
+                    添加参考标准:testStandardManage_Butadd,
+                    修改参考标准:testStandardManage_Butedit,
+                    批量删除参考标准:testStandardManage_Butbatchdelete,
+                    }
+                },
+            项目组管理projectPortfolioManagement:{
+                新增项目组:add_pp_projectPortfolioManagement,
+                编辑项目组:edit_pp_projectPortfolioManagement,
+                删除项目组:delete_pp_projectPortfolioManagement,
+                搜索项目组:select_pp_projectPortfolioManagement,
+            },
+            样品类型管理sampleTypemManagement:{
+                新增样品类型:add_st_sampleTypemManagement
+                搜索样品类型:select_st_sampleTypemManagement
+                编辑样品类型:edit_st_sampleTypemManagement
+                删除样品类型:delete_st_sampleTypemManagement
+                查看样品:select_sb_sampleTypemManagement
+                新增样品:add_s_sampleTypemManagement
+                搜索样品:select_s_sampleTypemManagement
+                编辑样品:edit_s_sampleTypemManagement
+                删除样品:delete_s_sampleTypemManagement
+        },
+            样品储位管理sampleStorageManagement:{}
+            },
+    测试资源:{
+        设备类型管理device_type_management:{
+
+        },
+        设备供应商管理device_vendor_management
+        设备信息管理device_management
+        实验室管理device_location_management
+        实验室设备能力device_location_management
+        设备台账
+
+    }
+
+
+
+}
+
